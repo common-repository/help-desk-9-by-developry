@@ -1,0 +1,255 @@
+/******************************************************************************
+* Wrap Global
+******************************************************************************/
+/* #007cba > rgba(0, 124, 186, 0.1); */
+.wrap--developry {
+	padding: 0 20px 0 20px;
+}
+	.wrap--developry a:hover,
+	.wrap--developry a:active,
+	.wrap--developry a:focus {
+		outline: 0 !important;
+	}
+	.wrap--developry img {
+		width: calc( 100% - 12px );
+	}
+	.wrap--developry img.zoom {
+		transform: scale(1);
+		transition: all 0.3s;
+	    display: block;
+	    width: 95%;
+	    height: auto;
+	    cursor: move;
+	}
+		.wrap--developry img.zoom:hover {
+			/*transform: scale(2);*/
+		}
+	.wrap--developry h1 {
+		font-size: 38px;
+		margin: 0 0 10px 0;
+	}
+	.wrap--developry h2 {
+		font-size: 24px !important;
+		margin: 0 0 20px 0 !important;
+		padding: 7px 10px 7px 0 !important;
+		line-height: 1.4 !important;
+		border-bottom: 1px solid #dddddd;
+		box-shadow: 0 1px 1px 0 #fafafa;	
+
+	}
+		.wrap--developry h2.no-border {
+			margin-bottom: 10px !important;
+			border-bottom: 0;
+		}
+	.wrap--developry h3 {
+		font-size: 18px;
+		margin: 0 0 10px 0;
+		line-height: 1.2;
+	}
+	.wrap--developry p {
+		margin: 0 0 20px 0;
+		font-size: 16px;
+	}
+	.wrap--developry p.lead {
+		margin: 0 0 20px 0;
+		font-size: 20px;
+	}
+	.wrap--developry ul,
+	.wrap--developry ol {
+		margin-left: 20px;
+		margin-bottom: 30px;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	.wrap--developry ul li {
+		list-style-type: circle;
+	}
+	.wrap--developry ol li {
+		list-style-type: decimal;
+		padding-bottom: 15px;
+	}
+	.wrap--developry mark {
+		background-color: #f1d552;
+		padding: 5px;
+		display: block;
+		border-radius: 4px;
+		overflow-x: auto;
+		max-width: 100%;
+	}
+	.wrap--developry ul.horizontal-list {
+		margin: 0 0 10px 0;
+		list-style-type: none;
+	}
+		.wrap--developry ul.horizontal-list li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	.wrap--developry nav {
+		border-bottom: 1px solid #c2c1c1;
+		margin: 40px 0 40px 0;
+		position: relative;
+	}
+		.wrap--developry nav a.current {
+			color: #000000;
+			background-color: #f2f1f1;
+			font-weight: 700;
+			position: relative;
+			top: 1px;
+			padding-top: 11px;
+		}
+		.wrap--developry nav a {
+			border: 1px solid #c2c1c1;
+			background-color: #e2e1e1;
+			border-bottom: 0;
+			display: inline-block;
+			padding: 10px 15px;
+			margin-left: 10px;
+			font-size: 17px;
+			font-weight: 500;
+			color: #424141;
+			text-decoration: none;
+		}
+			.wrap--developry nav a:hover,
+			.wrap--developry nav a:active,
+			.wrap--developry nav a:focus {
+				background-color: #f2f1f1;
+
+			}
+/******************************************************************************
+******************************************************************************/
+.wrap--developry #post-body-content {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+}
+/******************************************************************************
+* Main and Sidebar
+******************************************************************************/
+.wrap--developry .main-container {
+	max-width: 1100px;
+}
+	.wrap--developry .row {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+		.wrap--developry .col-12 {
+			width: 100%;
+		}
+		.wrap--developry .col-md-6 {
+			padding: 0 10px 0 10px;
+			width: calc( ( 100% * 1 / 2 ) - 0px );
+		}
+	.wrap--developry .nav-tab-container {
+		padding: 0 20px 20px 20px;
+		display: none;
+	}
+.wrap--developry .sidebar-container {
+	flex: 0 0 300px;
+	width: 300px;
+	margin-left: 40px;
+}
+	.wrap--developry .sidebar-box {
+		border: 3px solid #e2e1e1;
+		background-color: #ffffff;
+		padding: 15px;
+		margin-bottom: 30px;
+	}
+/******************************************************************************
+* Form Table
+******************************************************************************/
+.wrap--developry .form-table tr:nth-child(2n+1) {
+	background-color: #f2f1f1;
+}
+	.wrap--developry .form-table td,
+	.wrap--developry .form-table th {
+		padding: 5px 10px 5px 10px;
+	}
+	.wrap--developry th {
+		font-weight: 400;
+	}
+		.wrap--developry th label {
+			font-weight: 700;
+		}
+/******************************************************************************
+* Wrap Card
+******************************************************************************/
+.wrap--developry .wrap.card {
+	padding: 20px 20px 0 20px;	
+}
+/******************************************************************************
+* Othe / Misc
+******************************************************************************/
+.wrap--developry .form-table select {
+	margin: 5px 0 5px 0;
+	display: block;
+	width: 100%;
+}
+.wrap--developry  .star-rating a {
+	color: #f1d552;
+	font-size: 72px;
+	line-height: 32px;
+	letter-spacing: -10px;
+	vertical-align: bottom;
+	display: inline-block;
+	margin-right: 5px;
+	text-decoration: none;
+}
+.wrap--developry span.dashicons {
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	padding-top: 7px;
+}
+/******************************************************************************
+* Helpers / Utility 
+******************************************************************************/
+.wrap--developry .text-right {
+	display: block;
+	text-align: right;
+}
+.wrap--developry .d-block {
+	display: block;
+}
+.wrap--developry .d-flex {
+	display: flex;
+	align-items: center;
+}
+	.wrap--developry .d-flex a {
+		flex: 0 0 128px;
+	}
+.wrap--developry .d-none {
+	display: none;
+}
+.wrap--developry .has-success {
+	color: green;
+}
+/******************************************************************************
+* Responsive
+******************************************************************************/
+@media (max-width: 1200px) {
+	.wrap--developry {
+		padding: 0;
+	}
+	.wrap--developry nav {
+		margin-bottom: 15px;
+	}
+	.wrap--developry nav a {
+
+		padding-top: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.wrap--developry .row {
+		display: block;
+		flex-wrap: wrap;
+	}
+	.wrap--developry .col-12,
+	.wrap--developry .col-md-6 {
+		width: 100%;
+	}
+	.wrap--developry .sidebar-container {
+		display: none;
+	}
+}
